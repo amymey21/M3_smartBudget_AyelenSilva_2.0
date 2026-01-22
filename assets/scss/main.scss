@@ -1,0 +1,36 @@
+// 1. Abstracts: fundamentos del proyecto
+@use './abstracts/variables';
+@use './abstracts/mixins';
+@use './abstracts/functions';
+
+// 2. Vendors: librerías externas
+@use './vendors/bootstrap';
+
+// 3. Base: estilos globales
+@use './base/reset';
+@use './base/typography';
+@use './base/globalStyles';
+@use './base/utilities';
+
+// 4. Layout: estructura general
+@use './layout/header';
+@use './layout/footer';
+@use './layout/nav';
+@use './layout/grid';
+@use './layout/sidebar';
+
+// 5. Components: elementos reutilizables
+@use './components/buttons';
+@use './components/cards';
+@use './components/carrusel';
+@use './components/forms';
+@use './components/modals';
+
+// 6. Pages: estilos específicos por página
+@use './pages/landpage';
+@use './pages/signInUp';
+
+// 7. Themes: variaciones de estilo
+@use './themes/theme';
+@use './themes/dark';
+@use './themes/light';
