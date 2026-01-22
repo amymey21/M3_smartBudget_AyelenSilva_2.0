@@ -7,7 +7,7 @@ Este repositorio corresponde al **Módulo 3: Desarrollo de la Interfaz de Usuari
 
 ## 🚀 Objetivo del proyecto
 
-Construir progresivamente una **interfaz web funcional y escalable**, alineada con los prototipos definidos en Figma, aplicando buenas prácticas de desarrollo front-end:
+Construir progresivamente una **interfaz web funcional y escalable**, alineada con el prototipo definido, aplicando buenas prácticas de desarrollo front-end:
 
 - Uso semántico de **HTML5**.
 - Organización de estilos con metodología **CSS (BEM)**.
@@ -24,10 +24,10 @@ Construir progresivamente una **interfaz web funcional y escalable**, alineada c
 
 ## 📖 Etapas de desarrollo
 
-El proyecto se divide en 5 lecciones:
+El proyecto se divide en 5 etapas:
 
 1. **Del diseño a la implementación**
-   - Prototipo inicial en Figma.
+   - Prototipo inicial en Penpot.
    - Maquetación HTML semántica.
    - Comentarios en el código para identificar componentes clave.
 
@@ -64,22 +64,7 @@ El proyecto se divide en 5 lecciones:
 
 ---
 
-## 📌 Evaluación
-
-Se validará:
-
-- Correcto uso de etiquetas semánticas.
-- Aplicación coherente de metodología CSS.
-- Uso real de SASS con estructura modular.
-- Layout responsivo con Flexbox/Grid.
-- Integración de Bootstrap 4 sin sobreescrituras innecesarias.
-- Legibilidad del código y documentación clara.
-- Responsividad visual en desktop, tablet y mobile.
-- Presentación estética y funcional final.
-
----
-
 ## 👩‍💻 Autor
 
-**Ayelén** – Front-end developer en formación.  
+**Ayelén Silva** – Front-end developer en formación.  
 Proyecto realizado en el marco del módulo _Desarrollo de la Interfaz de Usuario Web_.
