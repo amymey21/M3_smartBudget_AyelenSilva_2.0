@@ -4,50 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Budget</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
   <body>
     <header>
       <!-- Barra de navegación -->
-      <nav>
-        <img src="" alt="Logo Smart Budget" />
-        <ul>
-          <li>Beneficios</li>
-          <li>Registro</li>
-          <li>Contacto</li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/img/Logo SB.svg"
+              alt="Logo Smart Budget"
+              height="40"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#beneficios">Beneficios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#registro">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
       <!-- banner o hero -->
-      <section>
-        <h1>SmartBudget</h1>
-        <img src="" alt="Imagen representativa de SmartBudget" />
-        <h2>Gestiona tus finanzas personales de forma fácil</h2>
-        <p>Visualiza ingresos, gastos y metas financieras en un sólo lugar</p>
-        <a class="button" href="#">Comienza ahora</a>
+      <section class="container text-center my-5">
+        <h1 class="border p-3 mb-4">SmartBudget</h1>
+        <img
+          src="./assets/img/2.png"
+          alt="Imagen representativa de SmartBudget"
+          class="img-fluid mb-4"
+        />
+        <h2 class="mb-3">Gestiona tus finanzas personales de forma fácil</h2>
+        <p class="mb-4">
+          Visualiza ingresos, gastos y metas financieras en un sólo lugar
+        </p>
+        <a class="btn btn-primary btn-lg" href="#">Comienza ahora</a>
       </section>
 
       <!-- carrusel -->
       <section>
         <article>
           <h3>Visualización clara</h3>
-          <img src="" alt="Gráfico representativo" />
+          <img src="./assets/img/4.svg" alt="Gráfico representativo" />
           <p>Gráficos dinámicos para entender tus gastos</p>
         </article>
 
         <article>
           <h3>Metas de ahorro</h3>
-          <img src="" alt="Objetivo de dardos" />
+          <img src="./assets/img/5.png" alt="Objetivo de dardos" />
           <p>Define tus objetivos y sigue tu progreso</p>
         </article>
 
         <article>
           <h3>Accesible en cualquier dispositivo</h3>
-          <img src="" alt="Imagen de dispositivos" />
+          <img src="./assets/img/1.svg" alt="Imagen de dispositivos" />
           <p>Diseño responsivo para móvil, tablet y escritorio</p>
         </article>
       </section>

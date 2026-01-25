@@ -1,5 +1,5 @@
 // 1. Abstracts: fundamentos del proyecto
-@use './abstracts/variables';
+@use './abstracts/variables' as variables;
 @use './abstracts/mixins';
 @use './abstracts/functions';
 

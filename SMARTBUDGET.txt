@@ -1,0 +1,52 @@
+SMARTBUDGET/
+├── 📂 assets/
+│   ├── 📂 css/
+│   │   ├── 📄 main.css
+│   │   └── 📄 main.css.map
+│   ├── 📂 img/
+│   │   ├── 🖼️ 1.svg
+│   │   ├── 🖼️ 2.png 
+│   │   ├── 🖼️ 3.png
+│   │   ├── 🖼️ 4.svg
+│   │   ├── 🖼️ 5.png
+│   │   └── 🖼️ Logo SB.svg
+│   ├── 📂 js/
+│   │   └── 📄 script.js
+│   └── 📂 scss/
+│       ├── 📂 abstracts/
+│       │   ├── 📄 _functions.scss
+│       │   ├── 📄 _mixins.scss
+│       │   └── 📄 _variables.scss
+│       ├── 📂 base/
+│       │   ├── 📄 _globalStyles.scss 
+│       │   ├── 📄 _reset.scss
+│       │   ├── 📄 _typography.scss
+│       │   └── 📄 _utilities.scss
+│       ├── 📂 components/
+│       │   ├── 📄 _buttons.scss
+│       │   ├── 📄 _cards.scss
+│       │   ├── 📄 _carrusel.scss
+│       │   ├── 📄 _forms.scss
+│       │   └── 📄 _modals.scss
+│       ├── 📂 layout/
+│       │   ├── 📄 _footer.scss
+│       │   ├── 📄 _grid.scss
+│       │   ├── 📄 _header.scss
+│       │   ├── 📄 _nav.scss
+│       │   └── 📄 _sidebar.scss
+│       ├── 📂 pages/
+│       │   ├── 📄 _landpage.scss
+│       │   └── 📄 _signInUp.scss
+│       ├── 📂 themes/
+│       │   ├── 📄 _dark.scss
+│       │   ├── 📄 _light.scss
+│       │   └── 📄 _theme.scss
+│       ├── 📂 vendors/
+│       │   └── 📄 _bootstrap.scss
+│       └── 📄 main.scss
+├── 📂 node_modules (*no incluída en repositorio)
+├── 📄 .gitignore
+├── 📄 index.html
+├── 🧾 package-lock.json (*no incluída en repositorio)
+├── 🧾 package.json
+└── 📄 README.md
