@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as variables;
+
+.hero {
+
+  &__title {
+    color: #ee611b; 
+  }
+}

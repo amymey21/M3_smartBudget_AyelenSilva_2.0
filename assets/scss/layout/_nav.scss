@@ -1,6 +1,7 @@
 @use '../abstracts/variables' as variables;
 
 .navbar {
+  
   &__logo img {
     height: 40px;
   }
@@ -9,7 +10,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
+    text-align: right;
     gap: 1rem;
   }
 

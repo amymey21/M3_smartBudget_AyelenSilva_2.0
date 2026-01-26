@@ -1,20 +1,23 @@
+@use "sass:color";
 @use '../abstracts/variables' as variables;
 
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
   text-decoration: none;
   font-weight: 600;
 
   &--primary {
     background-color: variables.$primary;
     color: #fff;
-    border: 1px solid variables.$primary;
+    text-decoration: none;
 
     &:hover {
-      background-color: color.scale(variables.$primary, $lightness: -22.27%);
-      border-color: color.scale(variables.$primary, $lightness: 10%);
+      background-color: color.scale(variables.$primary, $lightness: 7%);
+      color: variables.$secondary;
+      text-decoration: none;
     }
   }
 
