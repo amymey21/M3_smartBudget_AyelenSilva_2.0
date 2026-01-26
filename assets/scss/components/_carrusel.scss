@@ -1,0 +1,41 @@
+.benefits {
+  &__title {
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  &__item {
+    text-align: center;
+    padding: 2rem;
+
+    h3 {
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+  }
+  
+  &__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  // Controles del carrusel
+
+  &__control {
+    filter: invert(100%);
+    width: 5%;
+  }
+}
