@@ -1,8 +1,24 @@
+@use "sass:color";
+@use "../abstracts/variables" as variables;
+
+
+article {
+  background-color: variables.$success;
+}
 .benefits {
-  
+    border-color: #555;
+    border-width: 1rem;
+
+  &.container {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
   &__title {
+    color: variables.$secondary;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; //copilot
   }
 
   &__item {
@@ -12,25 +28,42 @@
     h3 {
       margin-bottom: 1rem;
       font-weight: 600;
+      font-size: 1.5rem; //copilot
+      background-color: inherit;
     }
 
     p {
       font-size: 1rem;
-      color: #555;
+      color: #272626;
+      background-color: inherit;
     }
   }
   
+  &__subtitle {
+    font-size: 1.5rem;
+
+    @media (min-width: 992) {
+      font-size: 2rem;
+    }
+  }
+
   &__image {
     display: block;
     max-width: 100%;
     height: auto;
     max-height: 250px;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
+
+    @media (min-width: 992px) {
+      max-height: 400px;
+    }
   }
 
   &__description {
     font-size: 1rem;
-    color: #555;
+    @media (min-width: 992px) {
+    font-size: 1.2rem;
+    }
   }
 
   // Controles del carrusel
@@ -38,5 +71,15 @@
   &__control {
     filter: invert(100%);
     width: 5%;
+  }
+}
+
+.carousel-item {
+  min-height: 300px;
+}
+  
+@media (min-width:992px) {
+  .carousel-item {
+    min-height: 500px;
   }
 }

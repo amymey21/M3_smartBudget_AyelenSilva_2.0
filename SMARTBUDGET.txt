@@ -42,6 +42,7 @@ SMARTBUDGET/
 │       │   ├── 📄 _light.scss
 │       │   └── 📄 _theme.scss
 │       ├── 📂 vendors/
+│       │   ├── 📄 _bootstrapIcons.scss
 │       │   └── 📄 _bootstrap.scss
 │       └── 📄 main.scss
 ├── 📂 node_modules (*no incluída en repositorio)

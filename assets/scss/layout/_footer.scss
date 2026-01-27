@@ -1,0 +1,49 @@
+@use "sass:color";
+@use "../abstracts/variables" as variables;
+
+
+.footer {
+  background-color: #a5a0a0e3;
+  color: #eee;
+  font-size: 0.9rem;
+
+  &__cont {
+      background-color: inherit;
+    }
+
+  &__row {
+    background-color: inherit;
+  }
+
+  &__col {
+    background-color: inherit;
+  }
+  h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    background-color: inherit;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 1rem; // separación entre íconos
+  }
+  i { 
+    color: #ffffff;
+    background-color: #a5a0a0e3;
+    font-size: 2rem;
+    gap: 1rem;
+
+    &:hover {
+      color: variables.$secondary;
+    }
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    background-color: inherit;
+  }
+}
+
+
+
