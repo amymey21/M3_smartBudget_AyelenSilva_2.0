@@ -1,27 +1,30 @@
 @use '../abstracts/variables' as variables;
+@use "sass:color";
 
 .navbar {
-  
-  &__logo img {
-    height: 40px;
+  background-color: variables.$success;
+
+  .navbar-collapse {
+    background-color: inherit;
+  }
+  .container {
+    background-color: inherit;
+  } 
+
+  .navbar-nav {
+    background-color: variables.$success;
   }
 
-  &__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: block;
-    text-align: right;
-    gap: 1rem;
+  .nav-item {
+    background-color: variables.$success;
   }
 
-  &__item a {
-    text-decoration: none;
-    font-weight: 600;
-    color: variables.$primary;
+    .nav-link {
+    color: #fff !important;
 
-    &:hover {
-      color: darken(variables.$primary, 10%);
+      &:hover {
+        color: color.scale(#fff, $lightness: -20%) !important; 
+        text-decoration: none;
+      }
     }
-  }
 }

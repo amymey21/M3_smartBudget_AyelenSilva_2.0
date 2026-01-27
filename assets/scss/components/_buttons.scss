@@ -15,8 +15,8 @@
     text-decoration: none;
 
     &:hover {
-      background-color: color.scale(variables.$primary, $lightness: 7%);
-      color: variables.$secondary;
+      background-color: color.scale(variables.$primary, $lightness: -10%);
+      color: black;
       text-decoration: none;
     }
   }
